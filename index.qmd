@@ -1,0 +1,33 @@
+---
+title: "Active Analytics"
+pagetitle: "Active Analytics"
+subtitle: "Geospatial data science for transport, air quality and road safety"
+image: media/logo_light.png
+image-alt: "Active Analytics logo"
+
+about:
+  template: solana
+  image-width: 16em
+  id: hero-heading
+  links:
+    - icon: github
+      aria-label: GitHub
+      href: https://github.com/activeanalytics-nl
+    - icon: linkedin
+      aria-label: LinkedIn
+      href: https://linkedin.com/company/activeanalytics
+    - text: "{{< fa envelope >}}"
+      aria-label: Contact
+      href: contact.qmd
+---
+
+::: {#hero-heading}
+
+Energy is the thread that connects CO2 emissions, noise, air pollution, cost of living and road safety.
+Active Analytics is an independent consultancy specialising in reproducible and transparent 
+analysis of the data behind this. From dispersion modelling and meteorological data processing to publication standard and
+interactive plots and simple dissemination websites.
+
+[Learn more about what we do &rarr;](services.qmd)
+
+:::

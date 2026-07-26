@@ -1,35 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://blaisekelly.github.io/me/services.html</loc>
-    <lastmod>2026-07-25T15:01:55.725Z</lastmod>
+    <loc>https://blaisekelly.github.io/me/projects/wildfire-pm10/index.html</loc>
+    <lastmod>2026-07-25T15:01:55.722Z</lastmod>
   </url>
   <url>
-    <loc>https://blaisekelly.github.io/me/projects/index.html</loc>
-    <lastmod>2026-07-25T15:01:55.270Z</lastmod>
+    <loc>https://blaisekelly.github.io/me/index.html</loc>
+    <lastmod>2026-07-26T11:45:28.580Z</lastmod>
   </url>
   <url>
-    <loc>https://blaisekelly.github.io/me/contact.html</loc>
-    <lastmod>2026-07-25T15:01:55.233Z</lastmod>
-  </url>
-  <url>
-    <loc>https://blaisekelly.github.io/me/blog/2026-07-20-welcome/index.html</loc>
-    <lastmod>2026-07-25T15:01:55.220Z</lastmod>
+    <loc>https://blaisekelly.github.io/me/blog/index.html</loc>
+    <lastmod>2026-07-25T19:20:55.046Z</lastmod>
   </url>
   <url>
     <loc>https://blaisekelly.github.io/me/about.html</loc>
     <lastmod>2026-07-25T15:01:55.177Z</lastmod>
   </url>
   <url>
-    <loc>https://blaisekelly.github.io/me/blog/index.html</loc>
-    <lastmod>2026-07-25T15:01:55.229Z</lastmod>
+    <loc>https://blaisekelly.github.io/me/blog/2026-07-20-welcome/index.html</loc>
+    <lastmod>2026-07-25T15:01:55.220Z</lastmod>
   </url>
   <url>
-    <loc>https://blaisekelly.github.io/me/index.html</loc>
-    <lastmod>2026-07-25T19:06:15.606Z</lastmod>
+    <loc>https://blaisekelly.github.io/me/contact.html</loc>
+    <lastmod>2026-07-25T15:01:55.233Z</lastmod>
   </url>
   <url>
-    <loc>https://blaisekelly.github.io/me/projects/wildfire-pm10/index.html</loc>
-    <lastmod>2026-07-25T15:01:55.722Z</lastmod>
+    <loc>https://blaisekelly.github.io/me/projects/index.html</loc>
+    <lastmod>2026-07-25T15:01:55.270Z</lastmod>
   </url>
 </urlset>

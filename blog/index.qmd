@@ -1,12 +1,13 @@
 ---
-title: "Blog"
+title: "Projects"
 listing:
-  contents: .
+  contents:
+#    - wildfire-pm10/index.qmd          # local project pages
+    - external-projects.yml
   sort: "date desc"
-  type: default
+  type: grid
+  image-height: 270px
+  page-size: 100
   categories: true
-  feed: true
-  date-format: "D MMM YYYY"
 page-layout: full
-title-block-banner: false
 ---

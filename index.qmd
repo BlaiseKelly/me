@@ -1,9 +1,9 @@
 ---
-title: "Active Analytics"
-pagetitle: "Active Analytics"
+title: "Blaise Kelly"
+pagetitle: "Geospatial"
 subtitle: "Geospatial data science for transport, air quality and road safety"
-image: media/logo_light.png
-image-alt: "Active Analytics logo"
+image: media/me_bicycles.png
+image-alt: "BK pic"
 
 about:
   template: solana
@@ -12,12 +12,15 @@ about:
   links:
     - icon: github
       aria-label: GitHub
-      href: https://github.com/activeanalytics-nl
+      href: https://github.com/blaiser
     - icon: linkedin
       aria-label: LinkedIn
-      href: https://linkedin.com/company/activeanalytics
+      href: https://linkedin.com/blaiser
+    - icon: youtube
+      aria-label: Youtube
+      href: https://www.youtube.com/@b.k.4557
     - text: "{{< fa envelope >}}"
-      aria-label: Contact
+      aria-label: Contact 
       href: contact.qmd
 ---
 

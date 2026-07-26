@@ -4,14 +4,14 @@ project:
     - CNAME
 
 website:
-  title: "Active Analytics"
-  site-url: https://activeanalytics.nl
+  title: "Blaise Kelly"
+  site-url: https://blaisekelly.github.io/me/
   description: "Geospatial data science for transport, air quality, and road safety."
-  favicon: assets/aa/img/logo.svg
+  favicon: media/BK.png
   page-navigation: true
   back-to-top-navigation: true
   google-analytics:
-    tracking-id: "G-9ZCEHK2WJV"
+    tracking-id: "G-EYS2B9FC38"
     anonymize-ip: true
     storage: cookies      # or: none  (see note below)
   cookie-consent:
@@ -19,15 +19,13 @@ website:
     style: simple
 
   navbar:
-    logo: https://infograph.venngage.com/ps/GOUF6yMvfU0
+    logo: media/BK.png
     tools:
       - icon: github
-        href: https://github.com/activeanalytics-nl
+        href: https://github.com/blaiser
     right:
       - text: About
         href: about.qmd
-      - text: Services
-        href: services.qmd
       - text: Projects
         href: projects/index.qmd
       - text: Blog
@@ -37,10 +35,10 @@ website:
 
   page-footer:
     left: >-
-      &#169; 2026 Active Analytics &#8729; Made with [Quarto](https://quarto.org)
+      &#169; 2026 Blaise Kelly &#8729; Made with [Quarto](https://quarto.org)
     center: |
-      <a class="link-dark me-1" href="https://github.com/activeanalytics-nl" title="GitHub" target="_blank" rel="noopener">{{< fa brands github >}}</a>
-      <a class="link-dark me-1" href="https://linkedin.com" title="LinkedIn" target="_blank" rel="noopener">{{< fa brands linkedin >}}</a>
+      <a class="link-dark me-1" href="https://github.com/blaisekelly" title="GitHub" target="_blank" rel="noopener">{{< fa brands github >}}</a>
+      <a class="link-dark me-1" href="https://linkedin.com/blaiser" title="LinkedIn" target="_blank" rel="noopener">{{< fa brands linkedin >}}</a>
       <a class="link-dark me-1" href="contact.html" title="Email">{{< fa envelope >}}</a>
     right:
       - icon: rss

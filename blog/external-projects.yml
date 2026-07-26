@@ -1,0 +1,148 @@
+- title: "B3108 Analysis"
+  description: "Analysis of speed, noise and TAG costs for the B3108 in Wiltshire."
+  date: 2026-06-19
+  categories: [TAG, air quality]
+  image: photos/AADT_direction.png
+  path: https://blaisekelly.github.io/B3108_speeds/
+
+- title: "COVID pop-up cycle paths"
+  description: "Analysis of urban traffic air quality stations comparing streets where pop-up cycle paths were introduced."
+  date: 2026-07-22
+  categories: [TAG, air quality]
+  image: photos/covid_LC003.png
+  path: https://github.com/BlaiseKelly/cycle_superhighways_aq
+
+- title: "CAMS ensemble vs observations: wildfire PM10 episode"
+  description: "Comparing CAMS forecasts against monitoring data during the wildfires in North-West England in early July."
+  date: 2026-06-01
+  categories: [air quality,meteorology]
+  image: photos/fire.png
+  path: https://blaisekelly.github.io/ECWMF_ADS/
+
+- title: "Pedestrian pavements STATS19"
+  description: "Reproducible analysis and plots of pavement pedestrian fatalities from STATS19 data covering Great Britain. Plots were suggested to the BBC and formatted using the BBC style package bbplot."
+  date: 2026-02-10
+  categories: [reproducible,road safety]
+  image: photos/sv_pavement_fatalities.png
+  path: https://github.com/BlaiseKelly/stats19_pavements
+
+- title: "STATS19 reports"
+  description: "A series of functions and scripts to generate reproducible reports from STATS19 data for local authorities with a focus on cyclist and pedestrian statistics."
+  date: 2025-11-01
+  categories: [road safety]
+  image: photos/Green_wave.jpg
+  path: https://blaisekelly.github.io/stats19_stats/
+
+- title: "Cycle cities"
+  description: "Applying the osmactive R package to cities around the world to determine the proportions of quality cycle infrastructure in each."
+  date: 2025-11-15
+  categories: [road safety]
+  image: photos/Nancy_cycle_paths.png
+  path: https://blaisekelly.github.io/cycle_cities/
+
+- title: "Barcelona AQ and Cycling"
+  description: "Analysis of local air quality observation data and cycle infrastructure from OSM before a study week in the city."
+  date: 2026-03-15
+  categories: [road safety]
+  image: photos/osm_evolution.gif
+  path: https://blaisekelly.github.io/barcelona_city_dat/
+
+- title: "ONS productivity data reproducible analysis"
+  description: "Reproducible plot of ONS productivity data."
+  date: 2023-05-27
+  categories: [open data,reproducible,population, society, policy]
+  image: photos/ITL3.png
+  path: https://github.com/BlaiseKelly/GVA_data
+
+- title: "Using CBS PC6 data"
+  description: "Reproducible example to demonstrate how R could be used for `geoaccounting` for a client."
+  date: 2025-09-24
+  categories: [geoaccounting, reproducible,spatial analysis]
+  image: photos/grid_render.png
+  path: https://github.com/BlaiseKelly/cbs_pc6_example
+
+- title: "Using Landscan population data"
+  description: "Showing ease of use of the Oak Ridge Landscan global 1km population raster with an animated plot of Europe over the years."
+  date: 2025-11-20
+  categories: [open data,population,reproducible]
+  image: photos/europe.gif
+  path: https://github.com/BlaiseKelly/landscan_global_pop
+
+- title: "Google speed data"
+  description: "Function and demo showing how the Google Distance Matrix API can be used to get current speed profiles for any road in the world."
+  date: 2025-11-19
+  categories: [reproducible,transport]
+  image: photos/speeds.gif
+  path: https://github.com/BlaiseKelly/google_speeds
+
+- title: "Winsley STATS19"
+  description: "Breaking down the STATS19 data for the Parish of Winsley, Wiltshire."
+  date: 2025-11-14
+  categories: [road safety,reproducible, open data, policy]
+  image: photos/sex_age.png
+  path: https://blaisekelly.github.io/winsley_stats19/
+
+- title: "Street Geometry"
+  description: "Repo showing how LIDAR data from Netherlands and UK can be used to estimate building to building distance and height."
+  date: 2019-12-14
+  categories: [spatial analysis, open data, reproducible]
+  image: photos/canyons.png
+  path: https://blaisekelly.github.io/street_canyons/
+
+- title: "Agroforestry potential"
+  description: "Reproducible plot of UK agroforestry potential for article on Agroforestry for the Environmental Scientist Magazine."
+  date: 2025-10-02
+  categories: [open data, reproducible]
+  image: photos/low_sens_agro.png
+  path: https://github.com/BlaiseKelly/agroforestry
+
+- title: "Spanish OD data"
+  description: "Plotting the open access Spanish Origin Destination (OD) using the TMAP R package donut plot."
+  date: 2025-11-10
+  categories: [spatial analysis, open data, reproducible]
+  image: photos/spanish_od.png
+  path: https://blaisekelly.github.io/spanish_od/san_sebastian.html
+
+- title: "Tres Hombres trip"
+  description: "Analysis and plotting of the ECMWF meteo data for trip I took on the Tres Hombres Cargo ship with Fair Transport in summer 2025."
+  date: 2023-12-10
+  categories: [meteorology]
+  image: photos/tres_hombres.gif
+  path: https://github.com/BlaiseKelly/tres_hombres_meteo
+
+- title: "Task curves"
+  description: "Equations defined and plotted for Hancock & Vasmatzidis Isodecrement human performance curves at various WBGT (°C)."
+  date: 2023-03-16
+  categories: [reproducible, meteorology]
+  image: photos/mental.png
+  path: https://github.com/BlaiseKelly/task_curves
+
+- title: "Observation sites map"
+  description: "Short reproducible script to generate interactive plot of European Air Quality sites as organised by the saqgetr R package."
+  date: 2025-04-11
+  categories: [air quality, open data, reproducible]
+  image: photos/saqgetr.png
+  path: https://github.com/BlaiseKelly/saqgetr_map
+
+- title: "BANES ANPR"
+  description: "Applying the OD Jitter R package to Census data trips to generate a synthetic traffic dataset for Bath."
+  date: 2025-10-10
+  categories: [opendata,traffic,reproducible]
+  image: photos/banes_od.png
+  path: https://github.com/BlaiseKelly/banes_anpr
+
+- title: "COVID test centre map"
+  description: "Scrapping COVID test data from the government webpage to make an interactive visual map to help people find a nearby centre."
+  date: 2020-06-10
+  categories: [spatial analysis, open data, reproducible]
+  image: photos/covid_sites.png
+  path: https://github.com/BlaiseKelly/COVID_test_map
+
+- title: "Danish solar"
+  description: "After a visit to Vrå I built a script to scrape Danish district heating solar thermal sites from main website and plotting on an interactive map and gif showing progress of the sector."
+  date: 2022-04-10
+  categories: [spatial analysis, open data, reproducible, energy]
+  image: photos/denmark_solar.gif
+  path: https://github.com/BlaiseKelly/solarheatdata
+
+

@@ -1,87 +1,10 @@
 [
   {
-    "objectID": "publications/zotero-item-7255/index.html",
-    "href": "publications/zotero-item-7255/index.html",
-    "title": "From the Archive 04 - Outdoor CO2 Pollution",
+    "objectID": "publications/index.html",
+    "href": "publications/index.html",
+    "title": "Publications",
     "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "publications/zotero-item-7249/index.html",
-    "href": "publications/zotero-item-7249/index.html",
-    "title": "Is Agroforestry the Answer to Making Agriculture Sustainable?",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "publications/tokayaImpactShippingAir2024/index.html",
-    "href": "publications/tokayaImpactShippingAir2024/index.html",
-    "title": "The Impact of Shipping on the Air Quality in European Port Cities with a Detailed Analysis for Rotterdam",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "publications/milsomExploringEffectWeather2022/index.html",
-    "href": "publications/milsomExploringEffectWeather2022/index.html",
-    "title": "Exploring the Effect of Weather on Air Quality in Chorlton",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "publications/kellyGreenWaveReprieve2011/index.html",
-    "href": "publications/kellyGreenWaveReprieve2011/index.html",
-    "title": "A ‘Green Wave’ Reprieve",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "publications/instituteNewEnergyWorld/index.html",
-    "href": "publications/instituteNewEnergyWorld/index.html",
-    "title": "New Energy World Magazine",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "publications/ExploringImpactWeather2022/index.html",
-    "href": "publications/ExploringImpactWeather2022/index.html",
-    "title": "Exploring the Impact of Weather on Air Quality in Chorlton",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "projects/wildfire-pm10/index.html",
-    "href": "projects/wildfire-pm10/index.html",
-    "title": "CAMS ensemble vs observations: wildfire PM10 episode",
-    "section": "",
-    "text": "Placeholder project page.\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Blaise Kelly",
-    "section": "",
-    "text": "Energy is the thread that connects CO2 emissions, noise, air pollution, cost of living and road safety. Active Analytics is an independent consultancy specialising in reproducible and transparent analysis of the data behind this. From dispersion modelling and meteorological data processing to publication standard and interactive plots and simple dissemination websites.\nLearn more about what we do →\n\n    \n    \n  \n\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Projects",
-    "section": "",
-    "text": "B3108 Analysis\n\n\n\nTAG\n\nair quality\n\n\n\nAnalysis of speed, noise and TAG costs for the B3108 in Wiltshire.\n\n\n\nJun 19, 2026\n\n\n\n\n\n\nNo matching items\n Back to top"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Blaise has been working on transport, building and air quality modelling for &gt;15 years. He has excellent knowledge of reproducible data analysis with R.\nair quality — dispersion modelling (AERMOD/ADMS), CAMS wildfire PM10 evaluation, NO2 trend/changepoint analysis, met-normalised cycling infrastructure study\nroad safety — STATS19 local authority reports, the Wiltshire 50→40mph appraisal, TAG economic assessment\nactive travel — cycling infrastructure (Barcelona OSM evolution, pop-up lanes/NO2 work), walking/cycling policy\ntransport — the broader umbrella when it’s not specifically active modes\nmeteorology — ERA5 preprocessing pipeline, worldmet/NOAA gap-filling, boundary layer work\nspatial analysis — LiDAR (solar potential, z0/displacement height), OSM analysis, general GIS\nreproducible reporting — Quarto pipelines, automated report generation, GitHub Pages publishing\nR — package development (nexurbr, stats19_stats contributions), Shiny apps (the mapgl spatial audit tool, BAC calculator)\ndispersion modelling\ndata visualisation\nshiny\nopen data\npolicy\nLearn more about what we do →\n\n    \n    \n  \n\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Get in touch! Email: info@activeanalytics.nl\n\n\n\n Back to top"
+    "text": "Google Scholar · ORCID\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Year - Oldest\n      \n      \n        Year - Newest\n      \n      \n        Type\n      \n      \n        Venue\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nYear\n\n\n\nTitle\n\n\n\nAuthor\n\n\n\nVenue\n\n\n\nType\n\n\n\n\n\n\n\n\n \n\n\n \n\n\n \n\n\n \n\n\n \n\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
     "objectID": "projects/index.html",
@@ -91,52 +14,38 @@
     "text": "COVID pop-up cycle paths\n\n\n\nTAG\n\nair quality\n\n\n\nAnalysis of urban traffic air quality stations comparing streets where pop-up cycle paths were introduced.\n\n\n\nJul 22, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nB3108 Analysis\n\n\n\nTAG\n\nair quality\n\n\n\nAnalysis of speed, noise and TAG costs for the B3108 in Wiltshire.\n\n\n\nJun 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nCAMS ensemble vs observations: wildfire PM10 episode\n\n\n\nair quality\n\nmeteorology\n\n\n\nComparing CAMS forecasts against monitoring data during the wildfires in North-West England in early July.\n\n\n\nJun 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBarcelona AQ and Cycling\n\n\n\nroad safety\n\n\n\nAnalysis of local air quality observation data and cycle infrastructure from OSM before a study week in the city.\n\n\n\nMar 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nPedestrian pavements STATS19\n\n\n\nreproducible\n\nroad safety\n\n\n\nReproducible analysis and plots of pavement pedestrian fatalities from STATS19 data covering Great Britain. Plots were suggested to the BBC and formatted using the BBC style…\n\n\n\nFeb 10, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing Landscan population data\n\n\n\nopen data\n\npopulation\n\nreproducible\n\n\n\nShowing ease of use of the Oak Ridge Landscan global 1km population raster with an animated plot of Europe over the years.\n\n\n\nNov 20, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nGoogle speed data\n\n\n\nreproducible\n\ntransport\n\n\n\nFunction and demo showing how the Google Distance Matrix API can be used to get current speed profiles for any road in the world.\n\n\n\nNov 19, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nCycle cities\n\n\n\nroad safety\n\n\n\nApplying the osmactive R package to cities around the world to determine the proportions of quality cycle infrastructure in each.\n\n\n\nNov 15, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nWinsley STATS19\n\n\n\nroad safety\n\nreproducible\n\nopen data\n\npolicy\n\n\n\nBreaking down the STATS19 data for the Parish of Winsley, Wiltshire.\n\n\n\nNov 14, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpanish OD data\n\n\n\nspatial analysis\n\nopen data\n\nreproducible\n\n\n\nPlotting the open access Spanish Origin Destination (OD) using the TMAP R package donut plot.\n\n\n\nNov 10, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nSTATS19 reports\n\n\n\nroad safety\n\n\n\nA series of functions and scripts to generate reproducible reports from STATS19 data for local authorities with a focus on cyclist and pedestrian statistics.\n\n\n\nNov 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nBANES ANPR\n\n\n\nopendata\n\ntraffic\n\nreproducible\n\n\n\nApplying the OD Jitter R package to Census data trips to generate a synthetic traffic dataset for Bath.\n\n\n\nOct 10, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nAgroforestry potential\n\n\n\nopen data\n\nreproducible\n\n\n\nReproducible plot of UK agroforestry potential for article on Agroforestry for the Environmental Scientist Magazine.\n\n\n\nOct 2, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing CBS PC6 data\n\n\n\ngeoaccounting\n\nreproducible\n\nspatial analysis\n\n\n\nReproducible example to demonstrate how R could be used for geoaccounting for a client.\n\n\n\nSep 24, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nObservation sites map\n\n\n\nair quality\n\nopen data\n\nreproducible\n\n\n\nShort reproducible script to generate interactive plot of European Air Quality sites as organised by the saqgetr R package.\n\n\n\nApr 11, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nTres Hombres trip\n\n\n\nmeteorology\n\n\n\nAnalysis and plotting of the ECMWF meteo data for trip I took on the Tres Hombres Cargo ship with Fair Transport in summer 2025.\n\n\n\nDec 10, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nONS productivity data reproducible analysis\n\n\n\nopen data\n\nreproducible\n\npopulation\n\nsociety\n\npolicy\n\n\n\nReproducible plot of ONS productivity data.\n\n\n\nMay 27, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nTask curves\n\n\n\nreproducible\n\nmeteorology\n\n\n\nEquations defined and plotted for Hancock & Vasmatzidis Isodecrement human performance curves at various WBGT (°C).\n\n\n\nMar 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nDanish solar\n\n\n\nspatial analysis\n\nopen data\n\nreproducible\n\nenergy\n\n\n\nAfter a visit to Vrå I built a script to scrape Danish district heating solar thermal sites from main website and plotting on an interactive map and gif showing progress of…\n\n\n\nApr 10, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nCOVID test centre map\n\n\n\nspatial analysis\n\nopen data\n\nreproducible\n\n\n\nScrapping COVID test data from the government webpage to make an interactive visual map to help people find a nearby centre.\n\n\n\nJun 10, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\nStreet Geometry\n\n\n\nspatial analysis\n\nopen data\n\nreproducible\n\n\n\nRepo showing how LIDAR data from Netherlands and UK can be used to estimate building to building distance and height.\n\n\n\nDec 14, 2019\n\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
-    "objectID": "publications/braunReviewMethodsEvaluation2013/index.html",
-    "href": "publications/braunReviewMethodsEvaluation2013/index.html",
-    "title": "Review of Methods for Evaluation of Building Energy Enhancements",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
     "section": "",
-    "text": "Back to top"
+    "text": "Get in touch! Email: info@activeanalytics.nl\n\n\n\n Back to top"
   },
   {
-    "objectID": "publications/index.html",
-    "href": "publications/index.html",
-    "title": "Publications",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Google Scholar · ORCID\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Year - Oldest\n      \n      \n        Year - Newest\n      \n      \n        Type\n      \n      \n        Venue\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nYear\n\n\n\nTitle\n\n\n\nAuthor\n\n\n\nVenue\n\n\n\nType\n\n\n\n\n\n\n\n\n2001\n\n\nExploring the Impact of Weather on Air Quality in Chorlton\n\n\nKelly Blaise\n\n\n \n\n\nMiscellaneous\n\n\n\n\n\n\n2001\n\n\nOutdoor CO2 Pollution\n\n\nKelly Blaise\n\n\nThe Institution of Environmental Sciences: The IES\n\n\nMiscellaneous\n\n\n\n\n\n\n2001\n\n\nReview of Methods for Evaluation of Building Energy Enhancements\n\n\nBraun Reiner, Dubisch Florian, Judex Florian, Kelly Blaise, Vukovic Vladimir\n\n\n \n\n\nConference Paper\n\n\n\n\n\n\n2001\n\n\nNew Energy World Magazine\n\n\nKelly Blaise\n\n\nNew Energy World\n\n\nJournal Article\n\n\n\n\n\n\n2001\n\n\nApplication of Acoustic Sensing Technology for Improving Building Energy Efficiency\n\n\nKelly Blaise, Hollosi Danilo, Cousin Philippe, Leal Sergio, Iglár Branislav, Cavallaro Andrea\n\n\nProcedia Computer Science\n\n\nJournal Article\n\n\n\n\n\n\n2001\n\n\nA ‘Green Wave’ Reprieve\n\n\nKelly Blaise\n\n\n \n\n\nConference Paper\n\n\n\n\n\n\n2001\n\n\nThe Role of Waste to Energy in the Circular Economy\n\n\nKelly Blaise\n\n\nThe Institution of Environmental Sciences: The IES\n\n\nMiscellaneous\n\n\n\n\n\n\n2001\n\n\nExploring the Effect of Weather on Air Quality in Chorlton\n\n\nMilsom Sam, Kelly Blaise\n\n\n \n\n\nMiscellaneous\n\n\n\n\n\n\n2001\n\n\nThe Impact of Shipping on the Air Quality in European Port Cities with a Detailed Analysis for Rotterdam\n\n\nTokaya J. P., Kranenburg R., Timmermans R. M. A., Coenen P. W. H. G., Kelly B., Hullegie J. S., Megaritis T., Valastro G.\n\n\nAtmospheric Environment: X\n\n\nJournal Article\n\n\n\n\n\n\n2001\n\n\nThe Urban Emergency: Addressing Environmental Quality\n\n\nWoolf Darren, Adams George, Cammelli Stefano, Marner Ben, Kelly Blaise\n\n\nCIBSE Journal\n\n\nJournal Article\n\n\n\n\n\n\n2001\n\n\nIs Agroforestry the Answer to Making Agriculture Sustainable?\n\n\nKelly Blaise\n\n\nThe Journal of the Institution of Environmental Sciences\n\n\nJournal Article\n\n\n\n\n\n\n2001\n\n\nSolar PV – the Ultimate in Reliable Baseload Generation?\n\n\nKelly Blaise\n\n\nEnergy World\n\n\nJournal Article\n\n\n\n\n\n\n2001\n\n\nFrom the Archive 04 - Outdoor CO2 Pollution\n\n\nKelly Blaise\n\n\nThe Institution of Environmental Sciences: The IES\n\n\nMiscellaneous\n\n\n\n\n\n\nNo matching items\n Back to top"
+    "text": "Blaise has been working on transport, building and air quality modelling for &gt;15 years. He has excellent knowledge of reproducible data analysis with R.\nair quality — dispersion modelling (AERMOD/ADMS), CAMS wildfire PM10 evaluation, NO2 trend/changepoint analysis, met-normalised cycling infrastructure study\nroad safety — STATS19 local authority reports, the Wiltshire 50→40mph appraisal, TAG economic assessment\nactive travel — cycling infrastructure (Barcelona OSM evolution, pop-up lanes/NO2 work), walking/cycling policy\ntransport — the broader umbrella when it’s not specifically active modes\nmeteorology — ERA5 preprocessing pipeline, worldmet/NOAA gap-filling, boundary layer work\nspatial analysis — LiDAR (solar potential, z0/displacement height), OSM analysis, general GIS\nreproducible reporting — Quarto pipelines, automated report generation, GitHub Pages publishing\nR — package development (nexurbr, stats19_stats contributions), Shiny apps (the mapgl spatial audit tool, BAC calculator)\ndispersion modelling\ndata visualisation\nshiny\nopen data\npolicy\nLearn more about what we do →\n\n    \n    \n  \n\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "publications/kellyApplicationAcousticSensing2014/index.html",
-    "href": "publications/kellyApplicationAcousticSensing2014/index.html",
-    "title": "Application of Acoustic Sensing Technology for Improving Building Energy Efficiency",
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Projects",
     "section": "",
-    "text": "Back to top"
+    "text": "B3108 Analysis\n\n\n\nTAG\n\nair quality\n\n\n\nAnalysis of speed, noise and TAG costs for the B3108 in Wiltshire.\n\n\n\nJun 19, 2026\n\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
-    "objectID": "publications/kellyWhenWasteEnergy/index.html",
-    "href": "publications/kellyWhenWasteEnergy/index.html",
-    "title": "The Role of Waste to Energy in the Circular Economy",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Blaise Kelly",
     "section": "",
-    "text": "Back to top"
+    "text": "Energy is the thread that connects CO2 emissions, noise, air pollution, cost of living and road safety. Active Analytics is an independent consultancy specialising in reproducible and transparent analysis of the data behind this. From dispersion modelling and meteorological data processing to publication standard and interactive plots and simple dissemination websites.\nLearn more about what we do →\n\n    \n    \n  \n\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "publications/OutdoorCO2Pollution2019/index.html",
-    "href": "publications/OutdoorCO2Pollution2019/index.html",
-    "title": "Outdoor CO2 Pollution",
+    "objectID": "projects/wildfire-pm10/index.html",
+    "href": "projects/wildfire-pm10/index.html",
+    "title": "CAMS ensemble vs observations: wildfire PM10 episode",
     "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "publications/woolfUrbanEmergencyAddressing2024/index.html",
-    "href": "publications/woolfUrbanEmergencyAddressing2024/index.html",
-    "title": "The Urban Emergency: Addressing Environmental Quality",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "publications/zotero-item-7252/index.html",
-    "href": "publications/zotero-item-7252/index.html",
-    "title": "Solar PV – the Ultimate in Reliable Baseload Generation?",
-    "section": "",
-    "text": "Back to top"
+    "text": "Placeholder project page.\n\n\n\n Back to top"
   }
 ]

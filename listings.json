@@ -1,10 +1,28 @@
 [
   {
+    "listing": "/blog/index.html",
+    "items": []
+  },
+  {
     "listing": "/projects/index.html",
     "items": []
   },
   {
-    "listing": "/blog/index.html",
-    "items": []
+    "listing": "/publications/index.html",
+    "items": [
+      "/publications/ExploringImpactWeather2022/index.html",
+      "/publications/OutdoorCO2Pollution2019/index.html",
+      "/publications/braunReviewMethodsEvaluation2013/index.html",
+      "/publications/instituteNewEnergyWorld/index.html",
+      "/publications/kellyApplicationAcousticSensing2014/index.html",
+      "/publications/kellyGreenWaveReprieve2011/index.html",
+      "/publications/kellyWhenWasteEnergy/index.html",
+      "/publications/milsomExploringEffectWeather2022/index.html",
+      "/publications/tokayaImpactShippingAir2024/index.html",
+      "/publications/woolfUrbanEmergencyAddressing2024/index.html",
+      "/publications/zotero-item-7249/index.html",
+      "/publications/zotero-item-7252/index.html",
+      "/publications/zotero-item-7255/index.html"
+    ]
   }
 ]

@@ -91,7 +91,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-date','listing-title','listing-author','listing-venue','listing-type',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-publisher","listing-type","listing-categories","listing-date"],
+      searchColumns: ["listing-title","listing-author","listing-venue","listing-type","listing-categories","listing-date"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -433,7 +433,7 @@ window.Quarto = {
         Type
       </option>
       <option value="listing-venue" data-direction="asc">
-        Venue
+        Where
       </option>
       <option value="listing-author" data-direction="asc">
         Author
@@ -462,7 +462,7 @@ window.Quarto = {
 </th>
 
 <th>
-<a class="sort" data-sort="listing-venue" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Venue</a>
+<a class="sort" data-sort="listing-venue" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Where</a>
 </th>
 
 <th>
@@ -473,7 +473,26 @@ window.Quarto = {
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-categories="Sm91cm5hbCUyMEFydGljbGU=" data-listing-date-sort="1735686000000" data-listing-title-sort="Is Agroforestry the Answer to Making Agriculture Sustainable?">
+<tr data-index="0" data-categories="Sm91cm5hbCUyMEFydGljbGU=" data-listing-date-sort="1735686000000" data-listing-title-sort="Job Exposure Matrix for Estimating Occupational Heat Exposure: The EU EPHOR Project EURO-JEM">
+<td>
+<span class="listing-date">2025</span>
+</td>
+<td>
+<a href="https://doi.org/10.1136/oemed-2024-EPICOHabstracts.64" class="title listing-title">Job Exposure Matrix for Estimating Occupational Heat Exposure: The EU EPHOR Project EURO-JEM</a>
+</td>
+<td>
+<span class="listing-author">de Crom Tosca OE, Scholten Bernice, Kelly Blaise, Kingma Boris, Ghosh Manosij, Notø Hilde, Turner Michelle C., Hidalgo Miguel Angel Alba, Klous Lisa L., Solovieva Svetlana, Ge Calvin, Kolstad Henrik, Selander Jenny, Pronk Anjoeka</span>
+</td>
+<td>
+<span class="listing-venue">Occupational and Environmental Medicine</span>
+</td>
+<td>
+<span class="listing-type">Journal Article</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-categories="Sm91cm5hbCUyMEFydGljbGU=" data-listing-date-sort="1735686000000" data-listing-title-sort="Is Agroforestry the Answer to Making Agriculture Sustainable?">
 <td>
 <span class="listing-date">2025</span>
 </td>
@@ -484,7 +503,7 @@ window.Quarto = {
 <span class="listing-author">Kelly Blaise</span>
 </td>
 <td>
-<span class="listing-venue">&nbsp;</span>
+<span class="listing-venue">The Journal of the Institution of Environmental Sciences</span>
 </td>
 <td>
 <span class="listing-type">Journal Article</span>
@@ -492,7 +511,45 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="1" data-categories="Sm91cm5hbCUyMEFydGljbGU=" data-listing-date-sort="1704063600000" data-listing-title-sort="The Impact of Shipping on the Air Quality in European Port Cities with a Detailed Analysis for Rotterdam">
+<tr data-index="2" data-categories="Q29uZmVyZW5jZSUyMFBhcGVy" data-listing-date-sort="1704063600000" data-listing-title-sort="Development of an Exposome Toolbox for Reducing the Occupational Burden of Disease: The EU EPHOR Project">
+<td>
+<span class="listing-date">2024</span>
+</td>
+<td>
+<a href="https://doi.org/10.1093/occmed/kqae023.0662" class="title listing-title">Development of an Exposome Toolbox for Reducing the Occupational Burden of Disease: The EU EPHOR Project</a>
+</td>
+<td>
+<span class="listing-author">Pronk Anjoeka, Scholten Bernice, Kelly Blaise, Kingma Boris, Schlünssen Vivi, Gosh Manosij, Notø Hilde, Turner Michelle, Solovieva Svetlana, Ge Calvin, Kolstad Henrik, Selander Jenny, Pronk Anjoeka, Ge Calvin, Loh Miranda, Albin Maria, Selander Jenny, Godderis Lode, Gosh Manosij, Vermeulen Roel, Peters Susan, Mehlum Ingrid, Turner Michelle, Schlünssen Vivi, Goldberg Marcel, Kogevinas Manolis, Harding Barbara, Solovieva Svetlana, Garani-Papadatos Tina, van Tongeren Martie, Kuijpers Eelco</span>
+</td>
+<td>
+<span class="listing-venue">International Commission on Occupational Health (ICOH)</span>
+</td>
+<td>
+<span class="listing-type">Conference Paper</span>
+</td>
+
+</tr>
+
+<tr data-index="3" data-categories="Sm91cm5hbCUyMEFydGljbGU=" data-listing-date-sort="1704063600000" data-listing-title-sort="Integrated Assessment of Simultaneous Threshold Exceedance of Heat, Air Pollution and Airborne Allergenic Pollen across Europe">
+<td>
+<span class="listing-date">2024</span>
+</td>
+<td>
+<a href="https://doi.org/10.1016/j.envint.2024.109010" class="title listing-title">Integrated Assessment of Simultaneous Threshold Exceedance of Heat, Air Pollution and Airborne Allergenic Pollen across Europe</a>
+</td>
+<td>
+<span class="listing-author">Scholten Bernice, van der Sanden Koen, Kelly Blaise, Henzing Bas, Pronk Anjoeka, Blom W. Marty, Klous Lisa, Kingma Boris R. M.</span>
+</td>
+<td>
+<span class="listing-venue">Environment International</span>
+</td>
+<td>
+<span class="listing-type">Journal Article</span>
+</td>
+
+</tr>
+
+<tr data-index="4" data-categories="Sm91cm5hbCUyMEFydGljbGU=" data-listing-date-sort="1704063600000" data-listing-title-sort="The Impact of Shipping on the Air Quality in European Port Cities with a Detailed Analysis for Rotterdam">
 <td>
 <span class="listing-date">2024</span>
 </td>
@@ -503,7 +560,7 @@ window.Quarto = {
 <span class="listing-author">Tokaya J. P., Kranenburg R., Timmermans R. M. A., Coenen P. W. H. G., Kelly B., Hullegie J. S., Megaritis T., Valastro G.</span>
 </td>
 <td>
-<span class="listing-venue">&nbsp;</span>
+<span class="listing-venue">Atmospheric Environment: X</span>
 </td>
 <td>
 <span class="listing-type">Journal Article</span>
@@ -511,7 +568,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="2" data-categories="Sm91cm5hbCUyMEFydGljbGU=" data-listing-date-sort="1704063600000" data-listing-title-sort="The Urban Emergency: Addressing Environmental Quality">
+<tr data-index="5" data-categories="Sm91cm5hbCUyMEFydGljbGU=" data-listing-date-sort="1704063600000" data-listing-title-sort="The Urban Emergency: Addressing Environmental Quality">
 <td>
 <span class="listing-date">2024</span>
 </td>
@@ -522,7 +579,7 @@ window.Quarto = {
 <span class="listing-author">Woolf Darren, Adams George, Cammelli Stefano, Marner Ben, Kelly Blaise</span>
 </td>
 <td>
-<span class="listing-venue">&nbsp;</span>
+<span class="listing-venue">CIBSE Journal</span>
 </td>
 <td>
 <span class="listing-type">Journal Article</span>
@@ -530,7 +587,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="3" data-categories="TWlzY2VsbGFuZW91cw==" data-listing-date-sort="1704063600000" data-listing-title-sort="Outdoor CO2 Pollution">
+<tr data-index="6" data-categories="TWlzY2VsbGFuZW91cw==" data-listing-date-sort="1704063600000" data-listing-title-sort="Outdoor CO2 Pollution">
 <td>
 <span class="listing-date">2024</span>
 </td>
@@ -541,7 +598,7 @@ window.Quarto = {
 <span class="listing-author">Kelly Blaise</span>
 </td>
 <td>
-<span class="listing-venue">&nbsp;</span>
+<span class="listing-venue">The Institution of Environmental Sciences: The IES</span>
 </td>
 <td>
 <span class="listing-type">Miscellaneous</span>
@@ -549,7 +606,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="4" data-categories="TWlzY2VsbGFuZW91cw==" data-listing-date-sort="1640991600000" data-listing-title-sort="Exploring the Impact of Weather on Air Quality in Chorlton">
+<tr data-index="7" data-categories="TWlzY2VsbGFuZW91cw==" data-listing-date-sort="1640991600000" data-listing-title-sort="Exploring the Impact of Weather on Air Quality in Chorlton">
 <td>
 <span class="listing-date">2022</span>
 </td>
@@ -568,18 +625,18 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="5" data-categories="Sm91cm5hbCUyMEFydGljbGU=" data-listing-date-sort="1640991600000" data-listing-title-sort="New Energy World Magazine">
+<tr data-index="8" data-categories="Sm91cm5hbCUyMEFydGljbGU=" data-listing-date-sort="1640991600000" data-listing-title-sort="Solar Thermal – the World’s Most Misunderstood Energy Technology?">
 <td>
 <span class="listing-date">2022</span>
 </td>
 <td>
-<a href="https://knowledge.energyinst.org/new-energy-world/article?id=126795" class="title listing-title">New Energy World Magazine</a>
+<a href="https://knowledge.energyinst.org/new-energy-world/article?id=126795" class="title listing-title">Solar Thermal – the World’s Most Misunderstood Energy Technology?</a>
 </td>
 <td>
 <span class="listing-author">Kelly Blaise</span>
 </td>
 <td>
-<span class="listing-venue">&nbsp;</span>
+<span class="listing-venue">New Energy World</span>
 </td>
 <td>
 <span class="listing-type">Journal Article</span>
@@ -587,7 +644,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="6" data-categories="TWlzY2VsbGFuZW91cw==" data-listing-date-sort="1640991600000" data-listing-title-sort="Exploring the Effect of Weather on Air Quality in Chorlton">
+<tr data-index="9" data-categories="TWlzY2VsbGFuZW91cw==" data-listing-date-sort="1640991600000" data-listing-title-sort="Exploring the Effect of Weather on Air Quality in Chorlton">
 <td>
 <span class="listing-date">2022</span>
 </td>
@@ -606,7 +663,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="7" data-categories="TWlzY2VsbGFuZW91cw==" data-listing-date-sort="1577833200000" data-listing-title-sort="The Role of Waste to Energy in the Circular Economy">
+<tr data-index="10" data-categories="TWlzY2VsbGFuZW91cw==" data-listing-date-sort="1577833200000" data-listing-title-sort="The Role of Waste to Energy in the Circular Economy">
 <td>
 <span class="listing-date">2020</span>
 </td>
@@ -617,7 +674,7 @@ window.Quarto = {
 <span class="listing-author">Kelly Blaise</span>
 </td>
 <td>
-<span class="listing-venue">&nbsp;</span>
+<span class="listing-venue">The Institution of Environmental Sciences: The IES</span>
 </td>
 <td>
 <span class="listing-type">Miscellaneous</span>
@@ -625,7 +682,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="8" data-categories="Sm91cm5hbCUyMEFydGljbGU=" data-listing-date-sort="1577833200000" data-listing-title-sort="Solar PV – the Ultimate in Reliable Baseload Generation?">
+<tr data-index="11" data-categories="Sm91cm5hbCUyMEFydGljbGU=" data-listing-date-sort="1577833200000" data-listing-title-sort="Solar PV – the Ultimate in Reliable Baseload Generation?">
 <td>
 <span class="listing-date">2020</span>
 </td>
@@ -636,7 +693,7 @@ window.Quarto = {
 <span class="listing-author">Kelly Blaise</span>
 </td>
 <td>
-<span class="listing-venue">&nbsp;</span>
+<span class="listing-venue">Energy World</span>
 </td>
 <td>
 <span class="listing-type">Journal Article</span>
@@ -644,7 +701,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="9" data-categories="TWlzY2VsbGFuZW91cw==" data-listing-date-sort="1546297200000" data-listing-title-sort="Outdoor CO2 Pollution">
+<tr data-index="12" data-categories="TWlzY2VsbGFuZW91cw==" data-listing-date-sort="1546297200000" data-listing-title-sort="Outdoor CO2 Pollution">
 <td>
 <span class="listing-date">2019</span>
 </td>
@@ -655,7 +712,7 @@ window.Quarto = {
 <span class="listing-author">Kelly Blaise</span>
 </td>
 <td>
-<span class="listing-venue">&nbsp;</span>
+<span class="listing-venue">The Institution of Environmental Sciences: The IES</span>
 </td>
 <td>
 <span class="listing-type">Miscellaneous</span>
@@ -663,7 +720,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="10" data-categories="Sm91cm5hbCUyMEFydGljbGU=" data-listing-date-sort="1388530800000" data-listing-title-sort="Application of Acoustic Sensing Technology for Improving Building Energy Efficiency">
+<tr data-index="13" data-categories="Sm91cm5hbCUyMEFydGljbGU=" data-listing-date-sort="1388530800000" data-listing-title-sort="Application of Acoustic Sensing Technology for Improving Building Energy Efficiency">
 <td>
 <span class="listing-date">2014</span>
 </td>
@@ -674,7 +731,7 @@ window.Quarto = {
 <span class="listing-author">Kelly Blaise, Hollosi Danilo, Cousin Philippe, Leal Sergio, Iglár Branislav, Cavallaro Andrea</span>
 </td>
 <td>
-<span class="listing-venue">&nbsp;</span>
+<span class="listing-venue">Procedia Computer Science</span>
 </td>
 <td>
 <span class="listing-type">Journal Article</span>
@@ -682,7 +739,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="11" data-categories="Q29uZmVyZW5jZSUyMFBhcGVy" data-listing-date-sort="1356994800000" data-listing-title-sort="Review of Methods for Evaluation of Building Energy Enhancements">
+<tr data-index="14" data-categories="Q29uZmVyZW5jZSUyMFBhcGVy" data-listing-date-sort="1356994800000" data-listing-title-sort="Review of Methods for Evaluation of Building Energy Enhancements">
 <td>
 <span class="listing-date">2013</span>
 </td>
@@ -701,7 +758,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="12" data-categories="Q29uZmVyZW5jZSUyMFBhcGVy" data-listing-date-sort="1293836400000" data-listing-title-sort="A 'Green Wave' Reprieve">
+<tr data-index="15" data-categories="Q29uZmVyZW5jZSUyMFBhcGVy" data-listing-date-sort="1293836400000" data-listing-title-sort="A 'Green Wave' Reprieve">
 <td>
 <span class="listing-date">2011</span>
 </td>

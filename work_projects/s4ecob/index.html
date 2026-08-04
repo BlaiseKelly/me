@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Using a low-cost network of audio sensors to infer how many people are in a large public building, and feeding that occupancy signal back into the HVAC and lighting controls. TRNSYS models of an international airport and a Barcelona shopping centre quantified the savings.">
 
-<title>Geospatial – Blaise Kelly</title>
+<title>S4ECoB — Sounds for Energy Control of Buildings – Blaise Kelly</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,32 +24,33 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./media/BK.png" rel="icon" type="image/png">
-<script src="site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-4f0e06b242da9f6f8ffe3bf4e2601da9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-694885d6bfe1f8d3a02d1ab809d7d0f1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-4f0e06b242da9f6f8ffe3bf4e2601da9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d2c9f05647102edc83b6e9e2867b1068.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-dfa7db1d704c801800296450baaa2330.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-d2c9f05647102edc83b6e9e2867b1068.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../media/BK.png" rel="icon" type="image/png">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-4f0e06b242da9f6f8ffe3bf4e2601da9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-694885d6bfe1f8d3a02d1ab809d7d0f1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-4f0e06b242da9f6f8ffe3bf4e2601da9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-d2c9f05647102edc83b6e9e2867b1068.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-dfa7db1d704c801800296450baaa2330.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-d2c9f05647102edc83b6e9e2867b1068.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -107,7 +109,7 @@ cookieconsent.run({
 
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -276,11 +278,11 @@ cookieconsent.run({
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./media/BK.png" alt="" class="navbar-logo light-content">
-    <img src="./media/BK.png" alt="" class="navbar-logo dark-content">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../media/BK.png" alt="" class="navbar-logo light-content">
+    <img src="../../media/BK.png" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Blaise Kelly</span>
     </a>
   </div>
@@ -291,35 +293,35 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects/index.html"> 
+    <a class="nav-link" href="../../projects/index.html"> 
 <span class="menu-text">Analysis</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications/index.html"> 
+    <a class="nav-link" href="../../publications/index.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./presentations/index.html"> 
+    <a class="nav-link" href="../../presentations/index.html"> 
 <span class="menu-text">Presentations</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./infographics/index.html"> 
+    <a class="nav-link" href="../../infographics/index.html"> 
 <span class="menu-text">Infographics</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog/index.html"> 
+    <a class="nav-link" href="../../blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./videos/index.html"> 
+    <a class="nav-link" href="../../videos/index.html"> 
 <span class="menu-text">Videos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
+    <a class="nav-link" href="../../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -335,58 +337,128 @@ cookieconsent.run({
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
 <main class="content page-columns page-full" id="quarto-document-content">
 
 
-
-
-
-<div class="quarto-about-solana column-body">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blaise Kelly</h1>
-<p class="subtitle lead">Applying geospatial and energy knowledge to real world problems</p>
+<h1 class="title">S4ECoB — Sounds for Energy Control of Buildings</h1>
+<p class="subtitle lead">Acoustic occupancy sensing and dynamic building simulation at Milano Linate and Maremagnum Barcelona</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Building simulation</div>
+    <div class="quarto-category">Energy efficiency</div>
+    <div class="quarto-category">TRNSYS</div>
+    <div class="quarto-category">EU FP7</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    <p>Using a low-cost network of audio sensors to infer how many people are in a large public building, and feeding that occupancy signal back into the HVAC and lighting controls. TRNSYS models of an international airport and a Barcelona shopping centre quantified the savings.</p>
+  </div>
 </div>
+
+
 <div class="quarto-title-meta">
-  </div>
-</header> <div class="about-links">
-  <a href="https://github.com/blaiser" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://linkedin.com/blaiser" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://www.youtube.com/@b.k.4557" class="about-link" rel="" target="">
-    <i class="bi bi-youtube"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="/contact.html" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="fa-solid fa-envelope" aria-label="envelope"></i></span>
-  </a>
-</div>
-      <div class="about-contents"><div id="hero-heading">
-<p>The systems impacts of energy: Air/Noise pollution, Building comfort, CO2 emissions, road violence, urban heat, socio-economics and the cost of living.</p>
-<p><a href="./blog/index.html">Articles I have written →</a></p>
-<p><a href="./publications/index.html">Publications I have contributed to →</a></p>
-<p><a href="analysis/index.qmd">Numbers I have crunched →</a></p>
-<p><a href="./presentations/index.html">Presentations I have given →</a></p>
-<p><a href="./videos/index.html">Videos I have made →</a></p>
-</div></div>
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 2015</p>
     </div>
-    <img src="media/me_bicycles.png" alt="BK pic" class="about-image
-  rounded " style="width: 16em;">
   </div>
-</div>
+  
+    
+  </div>
+  
 
 
+</header>
 
 
+<section id="at-a-glance" class="level2">
+<h2 class="anchored" data-anchor-id="at-a-glance">At a glance</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 77%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Role</strong></td>
+<td><em>[e.g.&nbsp;building energy modeller — TRNSYS model development and savings assessment]</em></td>
+</tr>
+<tr class="even">
+<td><strong>Employer</strong></td>
+<td>AIT Austrian Institute of Technology</td>
+</tr>
+<tr class="odd">
+<td><strong>Funder</strong></td>
+<td>European Commission, FP7 (ICT for energy-efficient buildings and spaces of public use)</td>
+</tr>
+<tr class="even">
+<td><strong>Grant</strong></td>
+<td>284628</td>
+</tr>
+<tr class="odd">
+<td><strong>Coordinator</strong></td>
+<td>D’Appolonia S.p.A. (now RINA Consulting)</td>
+</tr>
+<tr class="even">
+<td><strong>Duration</strong></td>
+<td>October 2011 – March 2015 (42 months)</td>
+</tr>
+<tr class="odd">
+<td><strong>Budget</strong></td>
+<td>~€3.9 M</td>
+</tr>
+<tr class="even">
+<td><strong>Demo sites</strong></td>
+<td>Milano Linate Airport; Maremagnum shopping centre, Barcelona</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="the-problem" class="level2">
+<h2 class="anchored" data-anchor-id="the-problem">The problem</h2>
+<p>Buildings are among the largest energy consumers in Europe, and large public buildings — airports, shopping centres, stations — are among the least efficiently run of them. The reason is simple: their building management systems (BMS) are driven by schedules and setpoints, not by people. Heating, ventilation, air conditioning and lighting run to a timetable that assumes a worst-case crowd, whether the terminal holds four thousand passengers or four hundred.</p>
+<p>Occupancy is the missing parameter. Measuring it directly at the scale of a whole terminal is awkward: turnstile counts miss most of the floor area, cameras are expensive and raise obvious privacy questions, and CO₂-based inference is slow and heavily damped by the ventilation system it is meant to be controlling.</p>
+</section>
+<section id="the-approach" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="the-approach">The approach</h2>
+<div class="page-columns page-full"><p>S4ECoB took a less obvious route: listen.  The project developed a low-cost network of networked audio sensors, combined with sound and acoustic scene classification, to estimate occupancy level and its distribution across a building in near real time. That occupancy estimate was then exposed to the existing BMS as a new control input, so that HVACL operation could be matched to actual demand while keeping occupants comfortable.</p><div class="no-row-height column-margin column-container"><span class="margin-aside">Occupied space sounds different from empty space, and the difference is measurable well before it shows up in a CO₂ trace.</span></div></div>
+<p>Deliberately, the project worked with the building systems already installed rather than proposing a rip-and-replace: the value proposition was an integration layer and better control strategies, not new plant. The consortium committed to reporting quantified energy savings, CO₂ reduction, return on investment and payback time — an unusually hard-nosed set of deliverables for an FP7 ICT project.</p>
+</section>
+<section id="my-contribution" class="level2">
+<h2 class="anchored" data-anchor-id="my-contribution">My contribution</h2>
+<p><em>[Rewrite this section in your own words — the notes below are a scaffold.]</em></p>
+<p>I built dynamic thermal models of the two demonstration buildings in <strong>TRNSYS</strong>:</p>
+<ul>
+<li><strong>Milano Linate Airport</strong> — a terminal with large glazed volumes, high infiltration through the landside doors, and a passenger load that swings hard with the flight schedule.</li>
+<li><strong>Maremagnum, Barcelona</strong> — a waterfront retail centre at Port Vell, with a very different occupancy signature: no timetable, strong weekday/weekend and seasonal structure, and internal gains dominated by lighting and retail units.</li>
+</ul>
+<p>The models served two purposes. First, as a <strong>baseline</strong>: separating the building’s thermal response from the control strategy, so that measured savings during the demonstration could be attributed to the occupancy-driven control rather than to a mild winter. Second, as a <strong>testbed</strong>: running candidate control strategies against the simulated buildings, so that the sequences eventually deployed on the live BMS had already been sanity-checked against plausible occupancy profiles.</p>
+<p><em>[Add specifics if you have them: which TRNSYS types, how the occupancy signal was coupled in, calibration against metered data, and the headline savings figure you arrived at.]</em></p>
+</section>
+<section id="what-i-took-from-it" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-took-from-it">What I took from it</h2>
+<p>Two things stuck. The first is that in large public buildings the <strong>control strategy is usually a bigger lever than the fabric</strong> — you can chase U-values for years and get less than a well-tuned demand-driven ventilation schedule delivers in a season.</p>
+<p>The second is the value of a <strong>calibrated baseline model</strong>. Without one, a demonstration project can only report a before-and-after difference, which is hopelessly confounded by weather and occupancy. This is the same argument I now make for <a href="../">meteorological normalisation of air quality data</a> <em>[link to the rmweather / pop-up cycle lane project when it’s up]</em> — different domain, identical logic: you cannot claim an intervention effect until you have modelled away everything else that changed.</p>
+</section>
+<section id="links" class="level2">
+<h2 class="anchored" data-anchor-id="links">Links</h2>
+<ul>
+<li><a href="https://cordis.europa.eu/project/id/284628">CORDIS project record</a></li>
+<li><a href="https://www.idmt.fraunhofer.de/en/institute/projects-products/projects/S4ECoB.html">Fraunhofer IDMT project page</a> — the acoustic sensing side of the consortium</li>
+</ul>
+
+
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -404,6 +476,13 @@ cookieconsent.run({
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -807,7 +886,7 @@ cookieconsent.run({
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
-    <a class="nav-link" href="./blog/index.xml">
+    <a class="nav-link" href="../../blog/index.xml">
       <i class="bi bi-rss" role="img">
 </i> 
     </a>

@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="A planning and operation toolchain for city-scale energy systems, built around dynamic simulation and genetic-algorithm optimisation. My work covered the Vienna demonstrator: recovering waste heat from an industrial site and moving it into nearby low-energy office buildings.">
 
-<title>Geospatial – Blaise Kelly</title>
+<title>CITYOPT — Optimising urban energy systems – Blaise Kelly</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,32 +24,33 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./media/BK.png" rel="icon" type="image/png">
-<script src="site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-4f0e06b242da9f6f8ffe3bf4e2601da9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-694885d6bfe1f8d3a02d1ab809d7d0f1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-4f0e06b242da9f6f8ffe3bf4e2601da9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d2c9f05647102edc83b6e9e2867b1068.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-dfa7db1d704c801800296450baaa2330.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-d2c9f05647102edc83b6e9e2867b1068.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../media/BK.png" rel="icon" type="image/png">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-4f0e06b242da9f6f8ffe3bf4e2601da9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-694885d6bfe1f8d3a02d1ab809d7d0f1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-4f0e06b242da9f6f8ffe3bf4e2601da9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-d2c9f05647102edc83b6e9e2867b1068.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-dfa7db1d704c801800296450baaa2330.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-d2c9f05647102edc83b6e9e2867b1068.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -276,11 +278,11 @@ cookieconsent.run({
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./media/BK.png" alt="" class="navbar-logo light-content">
-    <img src="./media/BK.png" alt="" class="navbar-logo dark-content">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../media/BK.png" alt="" class="navbar-logo light-content">
+    <img src="../../media/BK.png" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Blaise Kelly</span>
     </a>
   </div>
@@ -291,35 +293,35 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects/index.html"> 
+    <a class="nav-link" href="../../projects/index.html"> 
 <span class="menu-text">Analysis</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications/index.html"> 
+    <a class="nav-link" href="../../publications/index.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./presentations/index.html"> 
+    <a class="nav-link" href="../../presentations/index.html"> 
 <span class="menu-text">Presentations</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./infographics/index.html"> 
+    <a class="nav-link" href="../../infographics/index.html"> 
 <span class="menu-text">Infographics</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog/index.html"> 
+    <a class="nav-link" href="../../blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./videos/index.html"> 
+    <a class="nav-link" href="../../videos/index.html"> 
 <span class="menu-text">Videos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
+    <a class="nav-link" href="../../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -337,56 +339,122 @@ cookieconsent.run({
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 
-
-
-
-<div class="quarto-about-solana column-body">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blaise Kelly</h1>
-<p class="subtitle lead">Applying geospatial and energy knowledge to real world problems</p>
+<h1 class="title">CITYOPT — Optimising urban energy systems</h1>
+<p class="subtitle lead">Modelling industrial waste heat into a micro district heating network in Vienna</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">District heating</div>
+    <div class="quarto-category">Energy modelling</div>
+    <div class="quarto-category">Apros</div>
+    <div class="quarto-category">EU FP7</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    <p>A planning and operation toolchain for city-scale energy systems, built around dynamic simulation and genetic-algorithm optimisation. My work covered the Vienna demonstrator: recovering waste heat from an industrial site and moving it into nearby low-energy office buildings.</p>
+  </div>
 </div>
+
+
 <div class="quarto-title-meta">
-  </div>
-</header> <div class="about-links">
-  <a href="https://github.com/blaiser" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://linkedin.com/blaiser" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://www.youtube.com/@b.k.4557" class="about-link" rel="" target="">
-    <i class="bi bi-youtube"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="/contact.html" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="fa-solid fa-envelope" aria-label="envelope"></i></span>
-  </a>
-</div>
-      <div class="about-contents"><div id="hero-heading">
-<p>The systems impacts of energy: Air/Noise pollution, Building comfort, CO2 emissions, road violence, urban heat, socio-economics and the cost of living.</p>
-<p><a href="./blog/index.html">Articles I have written →</a></p>
-<p><a href="./publications/index.html">Publications I have contributed to →</a></p>
-<p><a href="analysis/index.qmd">Numbers I have crunched →</a></p>
-<p><a href="./presentations/index.html">Presentations I have given →</a></p>
-<p><a href="./videos/index.html">Videos I have made →</a></p>
-</div></div>
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 2017</p>
     </div>
-    <img src="media/me_bicycles.png" alt="BK pic" class="about-image
-  rounded " style="width: 16em;">
   </div>
-</div>
+  
+    
+  </div>
+  
 
 
+</header>
 
 
+<section id="at-a-glance" class="level2">
+<h2 class="anchored" data-anchor-id="at-a-glance">At a glance</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 76%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Role</strong></td>
+<td><em>[e.g.&nbsp;energy systems modeller — Vienna demonstration case]</em></td>
+</tr>
+<tr class="even">
+<td><strong>Employer</strong></td>
+<td>AIT Austrian Institute of Technology</td>
+</tr>
+<tr class="odd">
+<td><strong>Funder</strong></td>
+<td>European Commission, FP7</td>
+</tr>
+<tr class="even">
+<td><strong>Coordinator</strong></td>
+<td>VTT Technical Research Centre of Finland</td>
+</tr>
+<tr class="odd">
+<td><strong>Duration</strong></td>
+<td>2014 – 2017 <em>[confirm dates]</em></td>
+</tr>
+<tr class="even">
+<td><strong>Demo sites</strong></td>
+<td>Vienna (AIT); Helsinki; Nice</td>
+</tr>
+<tr class="odd">
+<td><strong>Tools</strong></td>
+<td>Apros dynamic simulation, Opt4J genetic algorithms, CITYOPT planning tool</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="the-problem" class="level2">
+<h2 class="anchored" data-anchor-id="the-problem">The problem</h2>
+<p>There are a great many ways to assemble a low-carbon district energy system — heat pumps, solar thermal, seasonal and short-term storage, waste heat recovery, electrical storage — and no obvious way to tell in advance which combination is best for a given site. The interactions are dynamic and non-linear: storage sizing depends on the production profile, which depends on the demand profile, which depends on the buildings, which depends on how the network is operated. Static spreadsheet feasibility studies flatten exactly the behaviour that determines whether the scheme works.</p>
+<p>CITYOPT set out to build tools that let planners <strong>simulate, optimise and compare</strong> whole design alternatives rather than guess at them, covering the full lifecycle from strategic planning through detailed design to day-to-day operation.</p>
+</section>
+<section id="the-approach" class="level2">
+<h2 class="anchored" data-anchor-id="the-approach">The approach</h2>
+<p>The project produced a planning tool structured around <em>projects</em> (a study area, with its input, output and external parameters) and <em>scenarios</em> (a particular set of parameter values describing one candidate design). Scenario outputs were generated by running an underlying dynamic simulation, with a genetic-algorithm optimiser searching the design space rather than the user enumerating options by hand.</p>
+<p>The simulation engine for the Vienna case was <strong>Apros</strong>, a multifunctional dynamic process simulation tool with strong thermal-hydraulic component libraries — well suited to networks where flow, temperature and storage state all evolve together. The toolchain was released open source.</p>
+</section>
+<section id="my-contribution" class="level2">
+<h2 class="anchored" data-anchor-id="my-contribution">My contribution</h2>
+<p><em>[Rewrite in your own words.]</em></p>
+<p>I worked on the <strong>Vienna demonstration case</strong>: a concept and feasibility analysis for a micro district heating network fed by industrial waste heat rejected from a nearby industrial facility at several different temperature levels.</p>
+<p>The system modelled comprised:</p>
+<ul>
+<li>one standard office building and two energy-efficient office buildings as the heat sinks;</li>
+<li>existing renewable supply — solar thermal collectors and heat pumps;</li>
+<li>both short-term and long-term (seasonal) thermal storage, to balance the mismatch between when heat is rejected and when it is wanted.</li>
+</ul>
+<p>The interesting part was the <strong>temperature cascade</strong>. Waste heat is not a single resource; it arrives at a range of grades, and the design question is which sink each grade should serve, and where a heat pump has to lift it. Getting that wrong means either dumping usable heat or running heat pumps against sources that could have supplied a load directly. Building this in Apros and letting the optimiser sweep network configurations, storage volumes and control setpoints made the trade-offs visible in a way a static calculation could not.</p>
+<p><em>[Add specifics: annual recovered heat fraction, storage sizing conclusions, which configuration won, and what the buildings’ return temperatures did to the recovery potential.]</em></p>
+</section>
+<section id="what-i-took-from-it" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-took-from-it">What I took from it</h2>
+<p>That <strong>the temperature of energy matters as much as the quantity of it</strong> — a point that is obvious in thermodynamics and routinely lost in policy discussion, where waste heat gets counted as an undifferentiated megawatt-hour resource. It also gave me a lasting interest in storage as an arbitrage mechanism, thermal or electrical, which is more or less directly where my current work on battery arbitrage against dynamic tariffs came from.</p>
+</section>
+<section id="links" class="level2">
+<h2 class="anchored" data-anchor-id="links">Links</h2>
+<ul>
+<li><a href="http://www.cityopt.eu/">CITYOPT project site</a></li>
+<li><a href="https://github.com/Cityopt/cityopt">CITYOPT toolchain on GitHub</a></li>
+<li>Tuominen, P., Stenlund, O., Marguerite, C., Pardo-Garcia, N., Grahn, E., Huvilinna, J. &amp; Iglar, B. (2017). <em>CITYOPT Planning Tool For Energy Efficient Cities</em>. International Journal of Sustainable Development and Planning, 12(3), 570–579.</li>
+</ul>
+
+
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -404,6 +472,13 @@ cookieconsent.run({
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -807,7 +882,7 @@ cookieconsent.run({
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
-    <a class="nav-link" href="./blog/index.xml">
+    <a class="nav-link" href="../../blog/index.xml">
       <i class="bi bi-rss" role="img">
 </i> 
     </a>

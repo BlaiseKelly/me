@@ -1,10 +1,15 @@
 [
   {
-    "listing": "/presentations/index.html",
-    "items": []
+    "listing": "/work_projects/index.html",
+    "items": [
+      "/work_projects/exposense/index.html",
+      "/work_projects/scis/index.html",
+      "/work_projects/cityopt/index.html",
+      "/work_projects/s4ecob/index.html"
+    ]
   },
   {
-    "listing": "/blog/index.html",
+    "listing": "/publications/index.html",
     "items": []
   },
   {
@@ -12,7 +17,11 @@
     "items": []
   },
   {
-    "listing": "/publications/index.html",
+    "listing": "/blog/index.html",
+    "items": []
+  },
+  {
+    "listing": "/presentations/index.html",
     "items": []
   }
 ]

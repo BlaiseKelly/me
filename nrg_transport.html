@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>BK about – Blaise Kelly</title>
+<title>quarto-input1c7aa8eb01afe7eb – Blaise Kelly</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -38,6 +38,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-4f0e06b242da9f6f8ffe3bf4e2601da9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-694885d6bfe1f8d3a02d1ab809d7d0f1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -315,7 +316,7 @@ cookieconsent.run({
 <span class="menu-text">Videos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./nrg_transport.html"> 
+    <a class="nav-link active" href="./nrg_transport.html" aria-current="page"> 
 <span class="menu-text">Energy of Transport</span></a>
   </li>  
   <li class="nav-item">
@@ -332,57 +333,21 @@ cookieconsent.run({
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
 
 
 
 
 
-<div class="quarto-about-solana column-body">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">About</h1>
-<p class="subtitle lead">What am I about?</p>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header> <div class="about-links">
-  <a href="https://github.com/blaisekelly" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://linkedin.com/blaiser" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="/contact.html" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="fa-solid fa-envelope" aria-label="envelope"></i></span>
-  </a>
-</div>
-      <div class="about-contents"><div id="hero-heading">
-<p>After studying Renewable Energy &amp; the Built environment</p>
-<p>I have been lucky enough to have the opportunity to live in many different countries and places.</p>
-<p>Riding my bike to work</p>
-<p><a href="&quot;lesswasted.nl&quot;">Also working on <code>Less Wasted</code> →</a></p>
-</div></div>
-    </div>
-    <img src="media/me_bicycles.jfif" alt="Me Amsterdam bike park" class="about-image
-  rounded " style="width: 16em;">
-  </div>
-</div>
+<iframe src="https://blaiser.shinyapps.io/energy_transport/" style="width:100%; height:100vh; border:none; display:block;">
+</iframe>
 
 
 
 
-
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -398,6 +363,13 @@ cookieconsent.run({
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
